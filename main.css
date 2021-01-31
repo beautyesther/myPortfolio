@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&display=swap');
+
+body {
+    background: #FFFFFF;
+    padding: 20px 60px 20px 60px;
+    margin: 0;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+.intro {
+    width: 60%;
+}
+
+.introText {
+    margin-top: 130px;
+    font-family: 'Acme', sans-serif;
+    font-size: 2em
+}
+.description {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+
+}
+
+.myWork {
+    padding: 10px 20px;
+    background: #FFFFFF;
+    color: #ffa4a4;
+    box-shadow: 0 0 20px #ff726b;
+    border-radius: 10px;
+    border-color: #FFA4A4;
+}
+
+.letsTalk {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgb(254 141 80), rgb(243 77 78));
+    color: white;
+    border-radius: 10px;
+
+}
+
+.whatIdo {
+    padding-top: 60px;
+    font-size: 3em;
+}
+.stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.stack > div {
+    width: 30%;
+    min-width: 240px;
+    display: block;
+}
+
+.stack > div > img {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.stack > div > h2 {
+    display: block;
+    font-size: 30px;
+}
+
+.stack > div > div {
+    text-align: justify;
+}
+/*.profileImage {*/
+/*    width: 30%;*/
+/*}*/
+.profileImage > img {
+    width: 100%;
+    height: auto;
+}
